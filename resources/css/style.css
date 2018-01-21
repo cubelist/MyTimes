@@ -32,10 +32,6 @@ nav {
   display: inline-block;
 
 }
-/*header img {
-  display: flex;
-  padding-right: 15px;
-}*/
 
 nav a {
   margin: 10px 10px;
@@ -43,21 +39,41 @@ nav a {
 }
 
 .main-container {
+  display: flex;
   border: 1px solid black;
   position: relative;
+  flex-direction: column;
 }
 
 .largecolumncontainer {
+  display: flex;
+  margin: 30px;
   width: 630px;
   border: 1px solid black;
+  position: relative;
+
 }
 
 .mediumcolumncontainer {
   width: 300px;
+  display: flex;
   border: 1px solid black;
+  position: relative;
 }
 
 .smallcolumncontainer {
   width: 240px;
+  display: flex;
   border: 1px solid black;
+  position: relative;
+}
+
+.article-1-main {
+  border: 1px solid black;
+  position: relative;
+}
+
+.article-1-heading {
+  border: 1px solid black;
+  position: relative;
 }
